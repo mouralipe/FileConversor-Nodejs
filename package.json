@@ -5,12 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
-  },
-  "devDependencies": {
-    "express": "^4.17.1"
+    "start": "sucrase-node src/server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "@aternus/csv-to-xlsx": "^1.0.10",
     "convert-excel-to-json": "^1.6.1",
     "convertapi": "^1.2.0",
