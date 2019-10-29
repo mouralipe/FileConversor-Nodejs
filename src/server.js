@@ -1,3 +1,3 @@
-import app from './app';
+import app from "./app";
 
-app.listen(3000);
+app.listen(process.ENODEV.PORT || 3000);
