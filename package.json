@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "devDependencies": {
     "express": "^4.17.1"
@@ -13,6 +14,7 @@
     "@aternus/csv-to-xlsx": "^1.0.10",
     "convert-excel-to-json": "^1.6.1",
     "convertapi": "^1.2.0",
+    "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "csv": "^5.1.2",
     "csvjson": "^5.1.0",
